@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 
-public class Ticket {
+public abstract class Ticket {
 
 
     private String PNRNumber;

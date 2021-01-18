@@ -9,8 +9,8 @@ public class Main {
 
         Flight f=new Flight("123","AI",128,33);
         Passenger p=new Passenger("71","Bn", "UP","Ay","900000000","ayus@gmail.com",12);
-        Ticket ticket=new Ticket("2234556","BN","DL", LocalDateTime.now(),LocalDateTime.now().plusMinutes(70),p,"33",
-                false,675,f);
+//        Ticket ticket=new Ticket("2234556","BN","DL", LocalDateTime.now(),LocalDateTime.now().plusMinutes(70),p,"33",
+//                false,675,f);
 //        RegularTicket r=new RegularTicket("Food");
 //        TouristTicket t=new TouristTicket("BNww",locations);
 

@@ -1,8 +1,16 @@
 package com.company;
-public class RegularTicket {
+
+import java.time.LocalDateTime;
+
+public class RegularTicket extends Ticket{
     private String specialService;
 
-    public RegularTicket(String specialService) {
+    public RegularTicket(String PNRNumber, String departureLocation, String destinationLocation,
+                         LocalDateTime arrival, LocalDateTime destination, Passenger passenger,
+                         String seatNo, boolean isCancled, int price, Flight flight, String specialService) {
+        super(PNRNumber, departureLocation, destinationLocation,arrival, destination, passenger,seatNo,isCancled, price,
+                flight);
+
         this.specialService = specialService;
     }
 
