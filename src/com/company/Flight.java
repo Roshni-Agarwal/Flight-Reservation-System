@@ -1,8 +1,8 @@
 package com.company;
 public class Flight {
-    String flightNumber;
-    String airlineName;
-    int capacity;
+    private String flightNumber;
+    private String airlineName;
+    private int capacity;
     private int bookedSeats;
 
     public Flight(String flightNumber, String airlineName, int capacity, int bookedSeats) {
@@ -10,6 +10,30 @@ public class Flight {
         this.airlineName = airlineName;
         this.capacity = capacity;
         this.bookedSeats = bookedSeats;
+    }
+
+    public String getFlightNumber() {
+        return flightNumber;
+    }
+
+    public void setFlightNumber(String flightNumber) {
+        this.flightNumber = flightNumber;
+    }
+
+    public String getAirlineName() {
+        return airlineName;
+    }
+
+    public void setAirlineName(String airlineName) {
+        this.airlineName = airlineName;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 
     public int getBookedSeats() {
